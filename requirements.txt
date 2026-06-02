@@ -3,3 +3,4 @@ kagglehub
 matplotlib
 fastapi
 uvicorn
+jinja2
