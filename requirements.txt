@@ -2,5 +2,5 @@ tensorflow==2.19.0
 kagglehub
 matplotlib
 fastapi
-uvicorn
+uvicorn[standard]
 jinja2
