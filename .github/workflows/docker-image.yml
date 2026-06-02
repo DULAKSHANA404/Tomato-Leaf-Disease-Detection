@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: domindu/tomato-leaf-detection:latest
+          tags: domindu/tomato-leaf-disease-detection:latest
