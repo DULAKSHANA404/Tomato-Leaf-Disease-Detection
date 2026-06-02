@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <div class="results">
+        <img class="image" src="{{img}}" width="30%"><br><br>
+        <h1>Your Plant has {{label}}</h1><br><br>
+        <h3>confidence :- {{conf}}</h3>
+        <form action="/">
+            <button type="submit">&#8606; Back </button>
+        </form>
+    </div>
+
+    
+
+{% endblock content %}

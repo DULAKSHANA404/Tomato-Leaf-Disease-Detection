@@ -1,0 +1,16 @@
+{% extends "layout.html"%}
+{% block content%}
+<div class="topic">
+    <h1>Put Your Image Here</h1>
+</div>
+
+<div class="form-div">
+    <form method="post" action="/result" enctype="multipart/form-data" >
+        <label for="file upload">choose a file </label>
+        <input type="file" id="file" name="img" accept=".jpeg,.jpg" required><br><br>
+        <button type="submit" value="submit" name="submit">Add</button>
+        <button type="reset" value="reset" name="reset">Reset</button>
+    </form>
+</div>
+
+{% endblock content %}
